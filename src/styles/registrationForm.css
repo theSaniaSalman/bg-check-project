@@ -1,0 +1,18 @@
+.formBox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.formBox h2{
+    font-size:35px;
+}
+.css-b62m3t-container{
+    width:432px;
+    margin-left:120px;
+}
+.css-1s2u09g-control{
+    height:55px !important;
+}
+.css-14el2xx-placeholder{
+    text-align:left;
+}
