@@ -11,7 +11,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-
+import AppBar from './AppBar';
   
 export default function FormPropsTextFields() {
   const [value, setValue] = React.useState(null);
@@ -21,6 +21,8 @@ export default function FormPropsTextFields() {
   }
 
   return (
+    <>
+    <AppBar/>
     <div className='formBox'>
     <Box
       component="form"
@@ -114,5 +116,6 @@ export default function FormPropsTextFields() {
       <Button sx={{ m: 1, p:2, width: 200 }} variant="contained">CREATE ACCOUNT</Button>
     </Box>
     </div>
+    </>
   );
 }

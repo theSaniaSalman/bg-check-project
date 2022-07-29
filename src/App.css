@@ -10,7 +10,7 @@ li{
   list-style: none;
 }
 body{
-  background-color: #eee;
+  /* background-color: blue; */
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -41,10 +41,12 @@ body{
 
 
 .side-menu{
-  position: fixed;
+ position: relative;
   background: #000;
-  width: 300px;
-  height: 100%;
+  flex:1;
+  height:100vh;
+  /* width: 300px; */
+  /* height: 100%; */
   box-sizing: border-box;
   padding: 30px 20px;
   transition: width .2s ease-in;
@@ -84,7 +86,7 @@ body{
 }
 
 .side-menu .search-controller{
-  color: #fff;
+  color: #333;
   position: relative;
 }
 
@@ -102,7 +104,7 @@ body{
   border: 0;
   outline: none;
   height: 35px;
-  background: #333;
+  background: #484848;
   border-radius: 5px;
   display: block;
   margin: 20px 0;
@@ -119,6 +121,7 @@ body{
   display: block;
   font-weight: 600;
   cursor: pointer;
+  margin-bottom:20px;
 }
 
 .side-menu .main-menu .menu-item.active{
@@ -143,9 +146,9 @@ body{
 .side-menu .main-menu .menu-item .menu-icon{
   display: inline-block;
   width: 40px;
-  height: 40px;
   font-size: 20px;
   line-height: 40px;
+ 
   text-align: center;
 }
 

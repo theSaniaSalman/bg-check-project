@@ -1,8 +1,8 @@
 import {React, useState} from 'react';
 import './App.css';
-import Layout from './Layout';
 import AppBar from './Components/AppBar.js';
-import SideMenu from './Components/SideeMenu.js';
+import SideMenu from './Components/SideMenu.js';
+import UserDashboard from './Components/UserDashboard.js';
 import RegistrationForm from './Components/RegistrationForm.js';
 import 'react-phone-input-2/lib/style.css'
 import ReactFlagsSelect from "react-flags-select";
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <SideMenu />    
+      <UserDashboard />    
     </div>
   );
 }
